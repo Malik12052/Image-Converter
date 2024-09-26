@@ -28,7 +28,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-background text-foreground flex flex-col justify-center items-center">
-      <h1 className="text-4xl mb-4">JFIF to JPEG Converter</h1>
+      <h1 className="text-4xl mb-4">JFIFfff to JPEG Converter</h1>
       <form onSubmit={handleSubmit} className="flex flex-col items-center">
         <input type="file" accept=".jfif" onChange={handleFileChange} required />
         <button type="submit" className="mt-4 bg-blue-500 text-white py-2 px-4 rounded">
